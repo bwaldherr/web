@@ -1,4 +1,37 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+
+
+
+.container{
+    width: 500px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
 img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.img1{
+    height: 200px;
+    width: 300px;
 }
